@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F8F5F3;
+   
+}
+.bathroommain{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.bathroomimg{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+.bathroomimg img{
+    object-fit: cover; 
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.bathhead{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+.bathhead h2{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 7vh;
+    font-weight: 400;
+}
+.bathhead h3{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 7vh;
+    font-weight: 300;
+}
+.bathhead button{
+    position: relative;
+    left: 50%;
+    height: 50px;
+    text-align: center;
+    width: 175px;
+    font-size: 1.25em;
+    transform: translate(-50%);
+    background-color: peru;
+    border: none;
+}
+.bathhead button:hover{
+    background-color: transparent;
+    border: 1px solid peru;
+    color: peru;
+    transition: 0.2s ease-in;
+}
+.bathimg1{
+    top: 5px;
+    left: -10px;
+}
+.bathimg2{
+    bottom: 5px;
+    right: -10px;
+}
+.msg{
+    width: 80vw;
+    text-align: center;
+    border-top: solid 3px #B8B7B6;
+    border-bottom: solid 3px #B8B7B6;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+.reviewhead{
+    margin-top: 7vh;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.reviewhead1{
+    width: 80vw;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reviewhead11{
+    background-color:bisque;
+}
+#slider-container {
+    position: relative;
+    width: 80vw;                /* Adjust container width as needed */
+    border: black solid 1px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 260%;                /* 10 divs with 4 displayed at a time -> 10 / 4 = 2.5 (250%) */
+}
+
+.slide {
+    width: 25%;             /* Display 4 slides at a time -> 100% / 4 = 25% */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    background-color: #3498db;
+    margin-right: 2.5%;
+}
